@@ -1,0 +1,156 @@
+body {
+    margin: auto;
+    padding: 100px;
+   font-family:"Roboto" ;
+   background-color: black;
+}
+
+
+.container {
+    width: 80%;
+    background-color: #1b1b1b;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    padding: 20px;
+}
+
+
+h1{ 
+    font-size: 2rem;
+    color: white;
+    margin: 20px 0 ;
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.picture {
+    background-image: url('picture.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ffffff;
+    margin-left: 190px;
+}
+
+
+
+h2 {
+    font-size: 1.2rem;
+    color: white;
+    padding: 2%;
+    margin: 20px 0 10px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    width: 50%;
+    text-align: center;
+    margin-left: 140px;
+}
+
+
+#objective {
+    margin-top: 50px;
+}
+
+
+#objective p {
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    line-height: 25px;
+}
+
+
+#information{
+    margin-top: 50px;
+}
+
+
+
+#information p {
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    line-height: 10px;
+}
+
+
+#information a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#education {
+    margin-top: 50px;
+}
+
+
+#education p {
+    margin-top: 20px;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    line-height: 15px;
+}
+
+
+#technical-skills {
+    margin-top: 50px;
+}
+
+#technical-skills ul li {
+    text-align: justify;
+    color: white;
+    padding: 8px;
+    
+}
+
+
+#strength-hobbies {
+    margin-top: 30px;
+}
+
+#strength-hobbies ul li {
+    text-align: justify;
+    color: white;
+    padding: 8px;
+}
+
+
+#experience {
+    margin-top: 30px;
+}
+
+
+#experience p {
+    text-align: justify;
+    color: white;
+    padding: 10px;
+}
+
+
+#toggle-skills {
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    font-size: 1.2rem;
+    border:none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+button {
+    margin-left: 180px;
+}
+
+
+button:hover{
+    background: black;
+    color: white;
+}
